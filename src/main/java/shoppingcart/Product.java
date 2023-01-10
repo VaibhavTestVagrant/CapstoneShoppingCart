@@ -1,13 +1,12 @@
 package shoppingcart;
 
-public class Products {
+public class Product {
 
     private String name;
-
     private double price;
     private int quantity;
 
-    public Products(String name, double price, int quantity) {
+    public Product(String name, double price, int quantity) {
         this.name = name;
         this.price=price;
         this.quantity = quantity;
@@ -36,4 +35,6 @@ public class Products {
     public void setQuantity(int quanitity) {
         this.quantity = quanitity;
     }
+
+
 }
